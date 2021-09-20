@@ -1,0 +1,17 @@
+B:\Purdue\IT488\3RT\3RT\bin\Debug\netstandard2.0\3RT.deps.json
+B:\Purdue\IT488\3RT\3RT\bin\Debug\netstandard2.0\3RT.dll
+B:\Purdue\IT488\3RT\3RT\bin\Debug\netstandard2.0\ref\3RT.dll
+B:\Purdue\IT488\3RT\3RT\bin\Debug\netstandard2.0\3RT.pdb
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.csproj.AssemblyReference.cache
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.GeneratedMSBuildEditorConfig.editorconfig
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\App.xaml.g.cs
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.AssemblyInfoInputs.cache
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.AssemblyInfo.cs
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.csproj.CoreCompileInputs.cache
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\XamlC.stamp
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.dll
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\ref\3RT.dll
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\3RT.pdb
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\MedicationsListPage.xaml.g.cs
+B:\Purdue\IT488\3RT\3RT\obj\Debug\netstandard2.0\MedicationsPage.xaml.g.cs

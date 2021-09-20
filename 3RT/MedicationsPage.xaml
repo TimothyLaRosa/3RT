@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3RT.MedicationsPage">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="MyMeds_logo" Grid.Column="5" Grid.Row="0" Grid.ColumnSpan="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
+
+        <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="6" Text="My Medication List" FontAttributes="Bold" FontSize="Title" HorizontalTextAlignment="Start" BackgroundColor="White"/>
+
+        <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Text="My Name:" FontAttributes="Italic" HorizontalTextAlignment="Start"/>
+        <Entry x:Name="myName" Grid.Column="2" Grid.ColumnSpan="4" Grid.Row="1" TextColor="Black"/>
+
+        <Label Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Text="My Allergies:" FontAttributes="Italic" HorizontalTextAlignment="Start"/>
+        <Entry x:Name="myAllergies" Grid.Column="2" Grid.ColumnSpan="4" Grid.Row="2" TextColor="Black"/>
+
+        <Label Grid.Column="0" Grid.ColumnSpan="10" Grid.Row="4" Text="As Needed" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="Gray"/>
+        <Label Grid.Column="0" Grid.ColumnSpan="10" Grid.Row="6" Text="Morning" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="Gray"/>
+        <Label Grid.Column="0" Grid.ColumnSpan="10" Grid.Row="8" Text="Afternoon" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="Gray"/>
+        <Label Grid.Column="0" Grid.ColumnSpan="10" Grid.Row="10" Text="Evening" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="Gray"/>
+
+        <Label Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="3" Text="Medication" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="LightGray"/>
+
+        <Entry x:Name="myMedicationAsNeededName" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="5" TextColor="Red"/>
+        <Entry x:Name="myMedicationMorningName" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="7" TextColor="Red"/>
+        <Entry x:Name="myMedicationAfternoonName" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="9" TextColor="Red"/>
+        <Entry x:Name="myMedicationEveningName" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="11" TextColor="Red"/>
+
+        <Label Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="3" Text="Appearance" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="LightGray"/>
+
+        <Entry x:Name="myMedicationAsNeededAppearance" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="5" TextColor="Red"/>
+        <Entry x:Name="myMedicationMorningAppearance" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="7" TextColor="Red"/>
+        <Entry x:Name="myMedicationAfternoonAppearance" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="9" TextColor="Red"/>
+        <Entry x:Name="myMedicationEveningAppearance" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="11" TextColor="Red"/>
+
+        <Label Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="3" Text="Dosage(mg)" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="LightGray"/>
+
+        <Entry x:Name="myMedicationAsNeededDosage"  Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="5" TextColor="Red"/>
+        <Entry x:Name="myMedicationsMorningDosage" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="7" TextColor="Red"/>
+        <Entry x:Name="myMedicationsAfternoonDosage" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="9" TextColor="Red"/>
+        <Entry x:Name="myMedicationsEveningDosage" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="11" TextColor="Red"/>
+
+        <Label Grid.Column="8" Grid.ColumnSpan="2" Grid.Row="3" Text="Symptoms" FontAttributes="Bold" HorizontalTextAlignment="Center" BackgroundColor="LightGray"/>
+
+        <Entry x:Name="myMedicationsAsNeededSymptoms" Grid.Column="8" Grid.ColumnSpan="2" Grid.Row="5" TextColor="Red"/>
+        <Entry x:Name="myMedicationsMorningSymptoms" Grid.Column="8" Grid.ColumnSpan="2" Grid.Row="7" TextColor="Red"/>
+        <Entry x:Name="myMedicationsAfternoonSymptoms" Grid.Column="8" Grid.ColumnSpan="2" Grid.Row="9" TextColor="Red"/>
+        <Entry x:Name="myMedicationsEveningSymptoms" Grid.Column="8" Grid.ColumnSpan="2" Grid.Row="11" TextColor="Red"/>
+
+
+
+        <Button Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="4" Text="Save" Clicked="medListSaveButton"/>
+        <Button Grid.Row="12" Grid.Column="6" Grid.ColumnSpan="4" Text="View" Clicked="medListViewButton"/>
+
+
+    </Grid>
+
+
+</ContentPage>
